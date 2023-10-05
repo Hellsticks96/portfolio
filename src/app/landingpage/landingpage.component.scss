@@ -1,0 +1,82 @@
+.landingpage-content {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 35vh;
+    left: 49vw;
+    color: #fff;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.rotated-text {
+    transform: rotate(-90deg);
+    font-size: 64px;
+    font-weight: 400;
+    width: 152px;
+    height: 63px;
+}
+
+.title-straight-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-text {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.dev-text {
+    color: #ff4747;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.me-img {
+    position: absolute;
+    left: 10vh;
+    object-fit: contain;
+}
+
+.contrast-arc-blue {
+    position: absolute;
+    top: 450px;
+    left: -2px;
+    width: 100vw;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.references {
+    position: absolute;
+    bottom: 32px;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+    height: 45px;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.ref-btn {
+    transition: 225ms ease-in-out;
+
+    &:hover {
+        height: 35px;
+        width: 35px;
+    }
+}
