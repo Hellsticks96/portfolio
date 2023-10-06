@@ -1,0 +1,13 @@
+.tech-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 16px;
+
+    img {
+        transition: all 225ms ease-in-out;
+        &:hover {
+            transform: translateY(-15px);
+        }
+    }
+}

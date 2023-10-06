@@ -1,6 +1,6 @@
 <div class="my-skills-content">
     <div class="technology-container">
-
+        <app-technology class="tech-badge" *ngFor="let tech of technologies; let i = index" [techname]="tech"></app-technology>
     </div>
 
     <div class="my-skills-text">
@@ -8,5 +8,5 @@
         <p>I have grwon my frontent developent skills, that have allowed me to create various projects.</p>
     </div>
 
-    <button class="contact-btn">Get in touch</button>
+    <app-contact-btn [btnText]="btnTextSkills"></app-contact-btn>
 </div>
