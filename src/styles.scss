@@ -4,6 +4,30 @@ body {
     margin: 0;
 }
 
+.contact-btn {
+  z-index: 5;
+  position: absolute;
+  right: 22vw;
+  top: 55vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  color: #fff;
+  width: 165px;
+  height: 60px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: #fa7902;
+  border: none;
+  margin: 0 auto;
+  transition: all 225ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+    background-color: #ff4747;
+  }
+}
+
 
 /*-------------------------------------------------------- Font Faces ----------------------------------------------------------------------------*/
 

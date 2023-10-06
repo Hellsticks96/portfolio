@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     width: 50%;
+    height: 200px;
 }
 
 .rotated-text {
@@ -41,6 +42,9 @@
     line-height: 69.6px;
 }
 
+
+
+
 .scroll-down-container {
     position: absolute;
     bottom: 96px;
@@ -66,7 +70,6 @@
     font-weight: 400;
     width: 135px;
     margin-right: 8px;
-    //transform: rotate(90deg);
 }
 
 .main-img-of-me-container{
@@ -89,10 +92,10 @@
 
 .contrast-arc-blue {
     position: absolute;
-    top: 500px;
+    top: 600px;
     left: -2px;
     width: 100vw;
-    height: 1500px;
+    height: 100vh;
     max-width: 100%;
     z-index: 3;
 }
@@ -118,7 +121,6 @@
     transition: 225ms ease-in-out;
 
     &:hover {
-        height: 35px;
-        width: 35px;
+        transform: scale(1.2);
     }
 }
