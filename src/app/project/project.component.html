@@ -1,1 +1,14 @@
-<p>project works!</p>
+<div class="project-container">
+    <img src="../../assets/img/projects/{{ projectInfo ['name']}}.png" alt="">
+    <div class="project-info">
+        <h2>{{ projectInfo['name'] }}</h2>
+        <div class="tech-info">
+            <div *ngFor="let tech of tech"> {{ tech }} |</div>
+        </div>
+        <p>{{ projectInfo['description' ]}}</p>
+        <div class="btn-container">
+            <app-contact-btn></app-contact-btn>
+            <app-contact-btn></app-contact-btn>
+        </div>
+    </div>
+</div>

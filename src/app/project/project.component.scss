@@ -1,0 +1,18 @@
+.project-container {
+    display: flex;
+    align-items: center;
+}
+
+.tech-info {
+    display: flex;
+
+    div {
+        margin-right: 8px;
+    }
+}
+
+.btn-container {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-around;
+}

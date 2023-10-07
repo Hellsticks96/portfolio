@@ -7,7 +7,7 @@
     <div class="portfolio-container">
         <p>This page is a sample of my work - please feel free to test my projects</p>
         <div class="projects">
-            <app-project></app-project>
+            <app-project *ngFor="let project of projects; let i = index" [projectInfo]="project" class="project-container"></app-project>
         </div>
     </div>
 </div>
