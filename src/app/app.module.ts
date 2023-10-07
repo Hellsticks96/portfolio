@@ -15,6 +15,8 @@ import { ScrollDownComponent } from './scroll-down/scroll-down.component';
 import { ReferencesComponent } from './references/references.component';
 import { AboutMeInfoComponent } from './about-me-info/about-me-info.component';
 import { PortraitComponent } from './portrait/portrait.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { PortraitComponent } from './portrait/portrait.component';
     ScrollDownComponent,
     ReferencesComponent,
     AboutMeInfoComponent,
-    PortraitComponent
+    PortraitComponent,
+    PortfolioComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
