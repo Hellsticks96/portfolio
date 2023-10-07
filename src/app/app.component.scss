@@ -1,21 +1,28 @@
+.set-width {
+    width: 100vw;
+    max-width: 100%;
+}
+
 .content {
     display: flex;
     flex-direction: column;
-    background-color: #141D2F;
 }
 
 .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    height: 120;
     z-index: 5;
 }
 
-.landingpage {
-    height: 100vh;
-    width: 100vw;
-    max-width: 100%;
-    z-index: 1;
+.about-me {
+    position: absolute;
+    top: 100vh;
 }
 
+.my-skills {
+    position: absolute;
+    top: 200vh;
+}

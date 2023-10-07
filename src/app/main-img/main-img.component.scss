@@ -1,0 +1,17 @@
+.main-img-of-me-container{
+    position: relative;
+}
+
+.me-img {
+    position: absolute;
+    left: 200px;
+    top: 10vh;
+    height: 1700px;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.me-img-background {
+    position: absolute;
+    top: 10vh;
+}

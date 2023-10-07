@@ -1,126 +1,15 @@
-.landingpage-content {
-    height: 100vh;
-    width: 100vw;
-    max-width: 100%;
-}
-
-.title {
-    position: absolute;
-    top: 35vh;
-    left: 49vw;
-    color: #fff;
-    height: 175px;
-    display: flex;
-    align-items: center;
-    width: 50%;
-    height: 200px;
-}
-
-.rotated-text {
-    transform: rotate(-90deg);
-    font-size: 64px;
-    font-weight: 400;
-    width: 152px;
-    height: 63px;
-}
-
-.title-straight-text {
-    display: flex;
-    flex-direction: column;
-}
-
-.name-text {
-    font-size: 90px;
-    font-weight: 700;
-    line-height: 108px;
-}
-
-.dev-text {
-    color: #ff4747;
-    font-size: 3.625rem;
-    font-weight: 400;
-    line-height: 69.6px;
-}
-
-
-
-
-.scroll-down-container {
-    position: absolute;
-    bottom: 96px;
-    right: 16px;
-    z-index: 5;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    transform: rotate(90deg);
-    color: #fff;
-
-    img {
-        object-fit: contain;
-        height: 18px;
-        width: 18px;
-        transform: rotate(-90deg);
-    }
-}
-
-.scroll-down-text {
-    font-size: 23px;
-    line-height: 27.6px;
-    font-weight: 400;
-    width: 135px;
-    margin-right: 8px;
-}
-
-.main-img-of-me-container{
-    position: relative;
-}
-
-.me-img {
-    position: absolute;
-    left: 20vh;
-    top: 15vh;
-    height: 1500px;
-    object-fit: contain;
-    z-index: 2;
-}
-
-.me-img-background {
-    position: absolute;
-    top: 20vh;
-}
-
 .contrast-arc-blue {
     position: absolute;
-    top: 600px;
-    left: 0px;
+    top: 750px;
     width: 100vw;
-    height: 100vh;
     max-width: 100%;
+    height: 1078px;
     z-index: 3;
 }
 
-.references {
+.contact-btn-landingpage {
     position: absolute;
-    bottom: 32px;
-    left: 0;
+    top: 730px;
+    left: 68%;
     z-index: 5;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 25vw;
-    height: 45px;
-
-    a {
-        color: #fff;
-        text-decoration: none;
-    }
-}
-
-.ref-btn {
-    transition: 225ms ease-in-out;
-
-    &:hover {
-        transform: scale(1.2);
-    }
 }

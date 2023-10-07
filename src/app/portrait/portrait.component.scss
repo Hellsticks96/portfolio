@@ -1,0 +1,25 @@
+.portrait-content {
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: center;    
+}
+
+.portrait-frame {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+}
+
+.portrait-bubble {
+    border-radius: 100%;
+    border: 4px solid #fa7902;
+}
+
+.portrait-background {
+    position: absolute;
+    top: -280px;
+    right: -400px;
+}

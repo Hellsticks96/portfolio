@@ -1,0 +1,30 @@
+.about-me-info {
+    width: 30%;
+    h1 {
+        font-size: 90px;
+        font-weight: 700;
+    }
+}
+
+.personal-info {
+    margin-top: 64px;
+}
+
+.info-block {
+    display: flex;
+    justify-content: space-between;
+
+
+    p {
+        width: 80%;
+    }
+
+    img {
+        object-fit: contain;
+        transition: all 225ms ease-in-out;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
