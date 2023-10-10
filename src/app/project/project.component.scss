@@ -1,10 +1,15 @@
 .project-container {
     display: flex;
     align-items: center;
+
+    h2 {
+        color: #ff4747;
+    }
 }
 
 .tech-info {
     display: flex;
+    color: #fa7902;
 
     div {
         margin-right: 8px;

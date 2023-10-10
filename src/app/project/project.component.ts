@@ -10,6 +10,10 @@ export class ProjectComponent implements OnInit {
   @Input() projectInfo: any;
   tech = [];
   techname = '';
+  btnTextTestProject = 'Test now!';
+  btnTextGit = 'Github';
+  btnStyleTestBtn = 'test-btn';
+  btnStyleGit = 'git-btn';
 
   constructor(){}
 

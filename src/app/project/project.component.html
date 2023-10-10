@@ -1,14 +1,14 @@
 <div class="project-container">
     <img src="../../assets/img/projects/{{ projectInfo ['name']}}.png" alt="">
-    <div class="project-info">
-        <h2>{{ projectInfo['name'] }}</h2>
-        <div class="tech-info">
-            <div *ngFor="let tech of tech"> {{ tech }} |</div>
-        </div>
-        <p>{{ projectInfo['description' ]}}</p>
-        <div class="btn-container">
-            <app-contact-btn></app-contact-btn>
-            <app-contact-btn></app-contact-btn>
-        </div>
+</div>
+<div class="project-info">
+    <h2>{{ projectInfo['name'] }}</h2>
+    <div class="tech-info">
+        <div *ngFor="let tech of tech"> {{ tech }}</div>
+    </div>
+    <p>{{ projectInfo['description' ]}}</p>
+    <div class="btn-container">
+        <app-contact-btn class="test-btn" [btnText]="btnTextTestProject" [btnStyle]="btnStyleTestBtn"></app-contact-btn>
+        <app-contact-btn class="git-btn" [btnText]="btnTextGit" [btnStyle]="btnStyleGit"></app-contact-btn>
     </div>
 </div>

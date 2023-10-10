@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LandingpageComponent implements OnInit {
 
   btnTextLandingpage = 'Let´s talk!'
+  btnStyleLandingpage = 'contact-btn';
 
   constructor(){}
 

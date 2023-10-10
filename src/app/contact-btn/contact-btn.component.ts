@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ContactBtnComponent implements OnInit {
 
   @Input() btnText: any;
+  @Input() btnStyle: any;
 
   constructor(){}
 
