@@ -1,11 +1,17 @@
 .about-me-content {
     position: absolute;
-    padding-left: 200px;
+    width: 100vw;
+    max-width: 100%;
     margin-top: 128px;
     background-color: #141D2F;
     color: #fff;
     display: flex;
+    align-items: center;
     z-index: 5;
 }
 
 
+.portrait {
+    position: absolute;
+    right: 0;
+}
