@@ -1,0 +1,31 @@
+<div class="contact-content">
+    <div class="header-and-text">
+        <div class="contact-header">
+            <img src="../../assets/img/background-design-elements/contact-header-line.png">
+            <h1>Contact</h1>
+        </div>
+        <div class="contact-text">
+            <p>Did I spark your interest? Feel free to contact me through this form.
+                I'd love to hear about your projects and contribute with my work!
+                <br>
+                <br>
+                Need a Frontend developer? <b>Contact me!</b>
+            </p>
+        </div>
+    </div>
+
+
+
+    <form (submit)="sendMail()" ngNativeValidate #contactForm>
+        <input placeholder="Your Name" required type="text" name="name" #nameField>
+        <input placeholder="Your E-Mail" required type="email" name="email" #emailField>
+        <textarea placeholder="Your Message" required name="message" #messageField></textarea>
+        <div class="checkbox-privacy-flex">
+            <input class="privacy-checkbox" required type="checkbox" name="privacyCheckbox">
+            <label class="privacy-label" for="privacyCheckbox">I've read the <a href="#">privacy policy</a> and agree to
+                the processing of my data as outlined.</label>
+        </div>
+
+        <app-contact-btn [btnText]="btnTextContact" [btnStyle]="btnStyleContact"></app-contact-btn>
+    </form>
+</div>

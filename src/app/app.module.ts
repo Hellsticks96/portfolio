@@ -17,6 +17,10 @@ import { AboutMeInfoComponent } from './about-me-info/about-me-info.component';
 import { PortraitComponent } from './portrait/portrait.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProjectComponent } from './project/project.component';
+import { ContactComponent } from './contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -34,11 +38,15 @@ import { ProjectComponent } from './project/project.component';
     AboutMeInfoComponent,
     PortraitComponent,
     PortfolioComponent,
-    ProjectComponent
+    ProjectComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
