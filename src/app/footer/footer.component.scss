@@ -35,4 +35,11 @@
     width: 10%;
     display: flex;
     justify-content: space-between;
+
+    img {
+        transition: all 225ms ease-in-out;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
 }
