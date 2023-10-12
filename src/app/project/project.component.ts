@@ -15,10 +15,15 @@ export class ProjectComponent implements OnInit {
   btnStyleTestBtn = 'test-btn';
   btnStyleGit = 'git-btn';
 
+
   constructor(){}
 
   ngOnInit(): void {
    this.tech = this.projectInfo['tech'];
    console.log(this.tech);
+  }
+
+  openLink(_url: any){
+    window.open(_url, '_blank');
   }
 }

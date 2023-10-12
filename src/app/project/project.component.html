@@ -8,7 +8,7 @@
     </div>
     <p>{{ projectInfo['description' ]}}</p>
     <div class="btn-container">
-        <app-contact-btn class="test-btn" [btnText]="btnTextTestProject" [btnStyle]="btnStyleTestBtn"></app-contact-btn>
-        <app-contact-btn class="git-btn" [btnText]="btnTextGit" [btnStyle]="btnStyleGit"></app-contact-btn>
+        <app-contact-btn class="test-btn" [btnText]="btnTextTestProject" [btnStyle]="btnStyleTestBtn" (click)="openLink(projectInfo['projectTestUrl'])"></app-contact-btn>
+        <app-contact-btn class="git-btn" [btnText]="btnTextGit" [btnStyle]="btnStyleGit" (click)="openLink(projectInfo['projectGitUrl'])"></app-contact-btn>
     </div>
 </div>

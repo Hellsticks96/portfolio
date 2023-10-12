@@ -15,4 +15,9 @@ export class LandingpageComponent implements OnInit {
   ngOnInit(): void {
     
   }
+
+  scrollToContact(){
+    let contact = document.getElementById('contactSection');
+    contact?.scrollIntoView();
+  }
 }

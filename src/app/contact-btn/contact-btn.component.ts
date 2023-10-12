@@ -9,10 +9,13 @@ export class ContactBtnComponent implements OnInit {
 
   @Input() btnText: any;
   @Input() btnStyle: any;
+  @Input() btnUrl: any;
 
   constructor(){}
 
   ngOnInit(): void {
     
   }
+
+
 }

@@ -12,4 +12,4 @@
     </div>
 </div>
 
-<app-contact-btn class="contact-btn-myskills" [btnText]="btnTextSkills" [btnStyle]="btnStyleMySkills"></app-contact-btn>
+<app-contact-btn (click)="scrollToContact()" class="contact-btn-myskills" [btnText]="btnTextSkills" [btnStyle]="btnStyleMySkills" [btnUrl]="contactBtnUrl"></app-contact-btn>

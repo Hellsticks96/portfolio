@@ -6,6 +6,7 @@
 .content {
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -14,34 +15,34 @@
     left: 0;
     right: 0;
     height: 120;
-    z-index: 5;
+    z-index: 10;
 }
 
 .about-me {
     position: absolute;
-    top: 110vh;
-    width: 100vw;
-    max-width: 100%;
+    top: 115vh;
 }
 
 .my-skills {
     position: absolute;
-    top: 200vh;
+    top: 210vh;
+    padding-top: 200px;
 }
 
 .portfolio {
     position: absolute;
-    top: 270vh;
+    top: 275vh;
+    padding-top: 200px;
 }
 
 .contact {
     position: absolute;
-    top: 400vh;
+    top: 410vh;
 }
 
 .footer {
     position: absolute;
-    top: 455vh;
+    top: 470vh;
 }
 
 
@@ -68,6 +69,5 @@
 .shade-footer {
     position: absolute;
     left: -100px;
-    top: 5278px;
-
+    top: 5480px;
 }

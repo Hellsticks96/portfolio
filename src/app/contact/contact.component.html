@@ -21,12 +21,12 @@
         <input placeholder="Your E-Mail" required type="email" name="email" #emailField>
         <textarea placeholder="Your Message" required name="message" #messageField></textarea>
         <div class="checkbox-privacy-flex">
-            <input class="privacy-checkbox" required type="checkbox" name="privacyCheckbox">
+            <input (click)="toggleSendMsgBtn()" class="privacy-checkbox" required type="checkbox" name="privacyCheckbox">
             <label class="privacy-label" for="privacyCheckbox">I've read the <a href="#">privacy policy</a> and agree to
                 the processing of my data as outlined.</label>
         </div>
 
-        <app-contact-btn [btnText]="btnTextContact" [btnStyle]="btnStyleContact"></app-contact-btn>
+        <app-contact-btn [btnText]="btnTextContact" [btnStyle]="btnStyleContact" class="send-msg-btn"></app-contact-btn>
     </form>
 </div>
 

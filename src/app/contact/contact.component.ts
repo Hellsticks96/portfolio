@@ -15,22 +15,32 @@ export class ContactComponent implements OnInit {
   btnTextContact = 'Send message :)'
   btnStyleContact = 'send-message-btn';
 
-  constructor(){}
+  constructor(){
+
+  }
 
   ngOnInit(): void {
-    
+    this.toggleSendMsgBtn();
+  }
+
+  toggleSendMsgBtn(){
+    let sendButton = this.sendButton.nativeElement;
+    if (sendButton.disabled == true) {
+      sendButton.disabled = false;
+    } else {
+      sendButton.disabled = true;
+    }
+  
   }
 
   async sendMail(){
     let nameField = this.nameField.nativeElement;
     let emailField = this.emailField.nativeElement;
     let messageField = this.messageField.nativeElement;
-    let sendButton = this.sendButton.nativeElement;
 
     nameField.disabled = true;
     emailField.disabled = true;
     messageField.disabled = true;
-    sendButton.disabled = true;
 
     let formData = new FormData();
     formData.append('name', nameField.value);

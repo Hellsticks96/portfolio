@@ -7,13 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MySkillsComponent implements OnInit {
 
-  public btnTextSkills = 'Get in Touch';
+  btnTextSkills = 'Get in Touch';
   btnStyleMySkills = 'contact-btn';
-  public technologies = ['Angular', 'TypeScript', 'JavaScript', 'HTML', 'Firebase', 'GIT', 'CSS', 'Rest-API', 'Scrum', 'MaterialDesign'];
+  public contactBtnUrl = '#contactSection';
+  technologies = ['Angular', 'TypeScript', 'JavaScript', 'HTML', 'Firebase', 'GIT', 'CSS', 'Rest-API', 'Scrum', 'MaterialDesign'];
 
   constructor(){}
 
   ngOnInit(): void {
     
+  }
+
+  scrollToContact(){
+    let contact = document.getElementById('contactSection');
+    contact?.scrollIntoView();
   }
 }
