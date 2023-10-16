@@ -22,7 +22,7 @@
         <textarea placeholder="Your Message" required name="message" #messageField></textarea>
         <div class="checkbox-privacy-flex">
             <input (click)="toggleSendMsgBtn()" class="privacy-checkbox" required type="checkbox" name="privacyCheckbox">
-            <label class="privacy-label" for="privacyCheckbox">I've read the <a href="#">privacy policy</a> and agree to
+            <label class="privacy-label" for="privacyCheckbox">I've read the <a routerLink="/legal">privacy policy</a> and agree to
                 the processing of my data as outlined.</label>
         </div>
 

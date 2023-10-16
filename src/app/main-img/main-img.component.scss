@@ -1,17 +1,22 @@
 .main-img-of-me-container{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .me-img {
     position: absolute;
-    left: 200px;
-    top: 10vh;
-    height: 1700px;
+    margin-top: 70vh;
+    height: 110vh;
+    width: 60%;
     object-fit: contain;
     z-index: 2;
 }
 
 .me-img-background {
-    position: absolute;
-    top: 10vh;
+    margin-top: 100px;
+    height: 75vh;
+    width: 100%;
+    object-fit: contain;
 }

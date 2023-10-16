@@ -8,6 +8,22 @@ body {
 
 html {
   scroll-behavior: smooth;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1800px){
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 1450px){
+  html {
+    font-size: 50%;
+  }
 }
 
 
