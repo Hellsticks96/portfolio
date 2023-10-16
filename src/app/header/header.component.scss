@@ -7,6 +7,21 @@
     padding: 20px 100px;
 }
 
+.home-link {
+    color: #fff;
+    text-decoration: none;
+    transition: all 225ms ease-in-out;
+
+    h1 {
+        font-size: 70px;
+        margin: 0;
+    }
+}
+
+.orange-letter {
+    color: #fa7902;
+}
+
 .header-menu {
     width: 25%;
     display: flex;

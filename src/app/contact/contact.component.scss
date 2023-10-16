@@ -95,3 +95,28 @@ textarea {
 ::placeholder {
     color: #fff;
 }
+
+.send-message-btn {
+    z-index: 5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    width: 250px;
+    height: 60px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #fa7902;
+    border: none;
+    margin: 0 auto;
+    transition: all 225ms ease-in-out;
+    margin-top: 32px;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    &:disabled {
+        background-color: gray;
+    }
+  }

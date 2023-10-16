@@ -1,0 +1,13 @@
+.impressum {
+    padding: 150px 100px;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 225ms ease-in-out;
+
+        &:hover {
+            color: #fa7902;
+        }
+    }
+}

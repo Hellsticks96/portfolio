@@ -20,6 +20,8 @@ import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+import { LegalComponent } from './legal/legal.component';
+import { ContentPageComponent } from './content-page/content-page.component';
 
 
 @NgModule({
@@ -40,7 +42,9 @@ import { FooterComponent } from './footer/footer.component';
     PortfolioComponent,
     ProjectComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    LegalComponent,
+    ContentPageComponent
   ],
   imports: [
     BrowserModule,
