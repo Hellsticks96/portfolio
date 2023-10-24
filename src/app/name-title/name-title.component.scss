@@ -3,24 +3,25 @@
     top: 35vh;
     left: 49vw;
     color: #fff;
-    height: 175px;
+    display: flex;
+    height: 200px;
     display: flex;
     align-items: center;
-    width: 50%;
-    height: 200px;
 }
 
 .rotated-text {
+    display: flex;
+    justify-content: center;
     transform: rotate(-90deg);
-    font-size: 4rem;
+    font-size: 4.1rem;
     font-weight: 400;
-    width: 9.5rem;
-    height: 3.93rem;
+    height: 65px;
+    width: 150px;
 }
 
 .title-straight-text {
-    display: flex;
-    flex-direction: column;
+    width: 800px;
+
 }
 
 .name-text {
@@ -33,5 +34,44 @@
     color: #ff4747;
     font-size: 3.625rem;
     font-weight: 400;
-    line-height: 4.36rem;
+    line-height: 4.6rem;
+}
+
+//<---------------------------------------------------- media queries ------------------------------------------------------>
+
+@media (max-width: 900px){
+    .title {
+        width: 100vw;
+        top: auto;
+        bottom: 75px;
+        left: 0;
+        z-index: 10;
+        height: 100px;
+    }
+
+    .rotated-text {
+        height: 33px;
+    }
+
+    .title-straight-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name-text {
+        line-height: 45px;
+    }
+
+    .dev-text {
+        line-height: 35px;
+    }
+
+    .text-s-mobile {
+        font-size: 27px;
+
+    }
+
+    .text-l-mobile {
+        font-size: 30px;
+    }
 }

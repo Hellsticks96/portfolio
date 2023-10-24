@@ -2,7 +2,6 @@
     position: absolute;
     width: 100vw;
     max-width: 100%;
-    margin-top: 128px;
     background-color: #141D2F;
     color: #fff;
     display: flex;
@@ -10,8 +9,36 @@
     z-index: 5;
 }
 
+.contrast-arc-blue {
+    position: absolute;
+    top: -60vh;
+    width: 100vw;
+    max-width: 100%;
+    height: 1078px;
+    z-index: 3;
+}
+
 
 .portrait {
     position: absolute;
     right: 0;
+}
+
+//<------------------------------------------------- media queries ---------------------------------------------------->
+
+@media (max-width: 400px) {
+
+    .about-me-content {
+        margin-top: -50px;
+        max-width: 360px;
+    }
+    .contrast-arc-blue {
+        top: -35vh;
+        left: 0;
+        height: auto;
+    }
+
+    .portrait{
+        display: none;
+    }
 }

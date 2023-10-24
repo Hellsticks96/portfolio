@@ -14,17 +14,14 @@ html {
   }
 }
 
-@media (max-width: 1800px){
-  html {
-    font-size: 75%;
+//<----------------------------------------------------- media queries ------------------------------------------------->
+
+@media (max-width: 400px){
+  body {
+    margin: 0 16px;
   }
 }
 
-@media (max-width: 1450px){
-  html {
-    font-size: 50%;
-  }
-}
 
 
 

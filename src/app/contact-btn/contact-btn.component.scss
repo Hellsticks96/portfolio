@@ -1,5 +1,4 @@
 .contact-btn {
-    z-index: 5;
     font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
@@ -56,5 +55,15 @@
 
     &:hover {
       background-color: #fa7902;
+    }
+  }
+
+  //<---------------------------------------------------- media queries ------------------------------------------------------>
+
+  @media (max-width: 900px){
+    .contact-btn {
+      width: 130px;
+      height: 50px;
+      font-size: 0.9rem;
     }
   }

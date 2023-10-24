@@ -7,7 +7,7 @@
 
 .me-img {
     position: absolute;
-    margin-top: 70vh;
+    margin-top: 35vh;
     height: 110vh;
     width: 60%;
     object-fit: contain;
@@ -15,8 +15,26 @@
 }
 
 .me-img-background {
-    margin-top: 100px;
     height: 75vh;
     width: 100%;
     object-fit: contain;
+}
+
+
+//<---------------------------------------------------- media queries ------------------------------------------------------>
+
+@media (max-width: 900px){
+    .main-img-of-me-container {
+        margin-top: 35px;
+    }
+    .me-img {
+        width: 100%;
+        margin-top: 50vh;
+    }
+
+    .me-img-background {
+        height: auto;
+        margin-top: 0; 
+        transform: scale(1.09); 
+    }
 }
