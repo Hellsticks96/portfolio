@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
+
     top: 128px;
     width: 100vw;
     max-width: 100%;
@@ -53,10 +53,14 @@
 
 @media (max-width: 400px){
 
+    .portfolio-content {
+        margin-top: 100px;
+    }
+
     .portfolio-header {
         width: 100vw;
         max-width: 100%;
-        right: -13px;
+        position: static;
 
         h1 {
             font-size: 2rem;
@@ -67,14 +71,22 @@
             height: 2.8px;
         }
     }
+
+    .portfolio-container {
+        position: static;
+    }
+
     .projects {
         width: 100vw;
         max-width: 100%;
+        margin-top: 50px;
     }
+
     .project-container {
         width: 100%;
         max-width: 100vw;
         flex-direction: column;
+
 
         &:nth-child(even){
             flex-direction: column;
