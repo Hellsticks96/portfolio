@@ -21,3 +21,17 @@
     display: flex;
     justify-content: space-around;
 }
+
+
+//<-------------------------------------------- media queries -------------------------------------------->
+
+@media (max-width: 400px){
+    .project-container {
+        width: 100vw;
+        max-width: 100%;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}

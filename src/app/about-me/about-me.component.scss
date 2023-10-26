@@ -6,7 +6,7 @@
     color: #fff;
     display: flex;
     align-items: center;
-    z-index: 5;
+    z-index: 10;
 }
 
 .contrast-arc-blue {
@@ -30,12 +30,14 @@
 
     .about-me-content {
         margin-top: -50px;
-        max-width: 360px;
+        position: static;
+        flex-direction: column;
+
     }
     .contrast-arc-blue {
-        top: -35vh;
-        left: 0;
         height: auto;
+        position: static;
+        max-width: none;
     }
 
     .portrait{

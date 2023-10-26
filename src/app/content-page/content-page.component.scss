@@ -3,6 +3,10 @@
     max-width: 100%;
 }
 
+.pos-absolute {
+    position: absolute;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -11,12 +15,10 @@
 
 
 .about-me {
-    position: absolute;
     top: 115vh;
 }
 
 .my-skills {
-    position: absolute;
     top: 210vh;
     padding-top: 200px;
 }
@@ -69,6 +71,14 @@
 
 @media (max-width: 400px){
     .about-me {
-        top: 100vh;
+        margin-top: -370px;
+    }
+
+    .my-skills {
+        padding-top: 100px;
+    }
+    
+    .pos-absolute {
+        position: static;
     }
 }

@@ -11,3 +11,16 @@
         }
     }
 }
+
+//<-------------------------------------------- media queries ----------------------------->
+
+@media (max-width: 400px){
+
+    .tech-container {
+
+        img {
+            transform: scale(0.8);
+        }
+    }
+
+}

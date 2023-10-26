@@ -47,3 +47,37 @@
     }
 
 }
+
+
+//<--------------------------------------------- media queries ----------------------------------------->
+
+@media (max-width: 400px){
+
+    .portfolio-header {
+        width: 100vw;
+        max-width: 100%;
+        right: -13px;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        img {
+            width: 80px;
+            height: 2.8px;
+        }
+    }
+    .projects {
+        width: 100vw;
+        max-width: 100%;
+    }
+    .project-container {
+        width: 100%;
+        max-width: 100vw;
+        flex-direction: column;
+
+        &:nth-child(even){
+            flex-direction: column;
+        }
+    }
+}
