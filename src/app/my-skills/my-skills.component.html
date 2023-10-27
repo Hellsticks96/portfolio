@@ -1,4 +1,5 @@
 <div class="my-skills-content">
+    <app-contact-btn (click)="scrollToContact()" class="contact-btn-myskills" [btnText]="btnTextSkills" [btnStyle]="btnStyleMySkills" [btnUrl]="contactBtnUrl"></app-contact-btn>
     <div class="technology-container">
         <app-technology class="tech-badge" *ngFor="let tech of technologies; let i = index" [techname]="tech"></app-technology>
     </div>
@@ -10,6 +11,6 @@
         </div>
         <p>I used the past 9 months to grow my Front-End Development skills. All the new things I learned allowed me to create variuos projects.</p>
     </div>
-</div>
+   
 
-<app-contact-btn (click)="scrollToContact()" class="contact-btn-myskills" [btnText]="btnTextSkills" [btnStyle]="btnStyleMySkills" [btnUrl]="contactBtnUrl"></app-contact-btn>
+</div>

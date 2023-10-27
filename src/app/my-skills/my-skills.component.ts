@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MySkillsComponent implements OnInit {
 
-  btnTextSkills = 'Get in Touch';
+  btnTextSkills = 'Contact me!';
   btnStyleMySkills = 'contact-btn';
   public contactBtnUrl = '#contactSection';
   technologies = ['Angular', 'TypeScript', 'JavaScript', 'HTML', 'Firebase', 'GIT', 'CSS', 'Rest-API', 'Scrum', 'MaterialDesign'];

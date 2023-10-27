@@ -21,20 +21,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    top: 128px;
     width: 100vw;
     max-width: 100%;
+    padding-top: 128px;
 }
 
 .projects {
-     margin-top: 128px;
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
-
-
 }
 
 .project-container {
@@ -51,10 +47,10 @@
 
 //<--------------------------------------------- media queries ----------------------------------------->
 
-@media (max-width: 400px){
+@media (max-width: 850px){
 
     .portfolio-content {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .portfolio-header {

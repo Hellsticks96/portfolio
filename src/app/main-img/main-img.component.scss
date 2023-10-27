@@ -23,7 +23,7 @@
 
 //<---------------------------------------------------- media queries ------------------------------------------------------>
 
-@media (max-width: 900px){
+@media (max-width: 850px){
     .main-img-of-me-container {
         margin-top: 35px;
     }
@@ -35,6 +35,5 @@
     .me-img-background {
         height: auto;
         margin-top: 0; 
-        transform: scale(1.09); 
     }
 }

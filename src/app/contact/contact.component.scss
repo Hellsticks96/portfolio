@@ -124,11 +124,12 @@ textarea {
 
   //<----------------------- media queries ----------------------------------->
 
-  @media (max-width: 400px){
+  @media (max-width: 850px){
     .contact-content {
         height: auto;
         position: static;
         flex-direction: column;
+        margin-top: 100px;
     }
 
     .header-and-text {
@@ -155,14 +156,14 @@ textarea {
 
     input {
         padding: 5px 8.3px;
-        width: 100vw;
-        max-width: 100%;
+        width: 90vw;
+        max-width: 90%;
     }
 
     textarea {
         padding: 5px 8.3px;
-        width: 100vw;
-        max-width: 100%;
+        width: 90vw;
+        max-width: 90%;
         height: 100px;
     }
 

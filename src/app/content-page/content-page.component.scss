@@ -20,7 +20,6 @@
 
 .my-skills {
     top: 210vh;
-    padding-top: 200px;
 }
 
 .portfolio {
@@ -42,7 +41,7 @@
     position: absolute;
     right: 0px;
     top: 1150px;
-    z-index: 6;
+    z-index: 15;
 }
 
 .shade-skills {
@@ -67,7 +66,7 @@
 
 //<-------------------------------------------------- media queries ----------------------------------------------->
 
-@media (max-width: 400px){
+@media (max-width: 850px){
     .about-me {
         margin-top: -370px;
     }
@@ -78,5 +77,42 @@
     
     .pos-absolute {
         position: static;
+    }
+
+    .set-margin-mobile {
+        margin: 0 16px;
+    }
+
+    .shade-portrait {
+        position: absolute;
+        right: 0px;
+        top: 800px;
+        z-index: 6;
+        object-fit: contain;
+        width: 40%;
+    }
+    
+    .shade-skills {
+        position: absolute;
+        left: 0px;
+        top: 3000px;
+        object-fit: contain;
+        width: 40%;   
+    }
+    
+    .shade-portfolio {
+        position: absolute;
+        left: 0;
+        top: 4100px;
+        object-fit: contain;
+        width: 90%;
+    }
+    
+    .shade-footer {
+        position: absolute;
+        left: -100px;
+        top: 5480px;
+        object-fit: contain;
+        width: 63%;
     }
 }
