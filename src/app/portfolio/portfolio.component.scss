@@ -44,6 +44,13 @@
 
 }
 
+.shade-portfolio {
+    position: absolute;
+    right: 0;
+    top: 600px;
+    z-index: -1;
+}
+
 
 //<--------------------------------------------- media queries ----------------------------------------->
 
@@ -87,5 +94,20 @@
         &:nth-child(even){
             flex-direction: column;
         }
+    }
+
+    .shade-portfolio {
+        position: absolute;
+        top: 950px;
+        object-fit: contain;
+        width: 110%;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 850px) and (min-height: 850px){
+    .shade-portfolio {
+        top: 1150px;
+        width: 90%;
     }
 }

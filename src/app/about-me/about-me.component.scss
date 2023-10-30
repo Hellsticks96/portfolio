@@ -18,6 +18,13 @@
     z-index: -1;
 }
 
+.shade-portrait {
+    position: absolute;
+    right: 0px;
+    top: -500px;
+    z-index: 15;
+}
+
 
 .portrait {
     position: absolute;
@@ -29,7 +36,6 @@
 @media (max-width: 850px) {
 
     .about-me-content {
-        margin-top: 0px;
         position: static;
         flex-direction: column;
 
@@ -41,7 +47,27 @@
         z-index: 3;
     }
 
+    .shade-portrait {
+        position: absolute;
+        right: 0px;
+        top: 800px;
+        z-index: 6;
+        object-fit: contain;
+        width: 30%;
+    }
+
     .portrait{
         display: none;
+    }
+}
+
+@media (max-width: 850px) and (min-height: 850px) {
+    .contrast-arc-blue {
+        margin-top: -118px;
+    }
+
+    .shade-portrait {
+        width: 30%;
+        top: 1000px;
     }
 }

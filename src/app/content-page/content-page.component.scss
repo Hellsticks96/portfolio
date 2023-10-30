@@ -37,31 +37,11 @@
 }
 
 
-.shade-portrait {
-    position: absolute;
-    right: 0px;
-    top: 1150px;
-    z-index: 15;
-}
 
-.shade-skills {
-    position: absolute;
-    left: 0px;
-    top: 3000px;
 
-}
 
-.shade-portfolio {
-    position: absolute;
-    left: 0px;
-    top: 3900px;
-}
 
-.shade-footer {
-    position: absolute;
-    left: -100px;
-    top: 5480px;
-}
+
 
 
 //<-------------------------------------------------- media queries ----------------------------------------------->
@@ -83,36 +63,11 @@
         margin: 0 16px;
     }
 
-    .shade-portrait {
-        position: absolute;
-        right: 0px;
-        top: 800px;
-        z-index: 6;
-        object-fit: contain;
-        width: 40%;
-    }
+
     
-    .shade-skills {
-        position: absolute;
-        left: 0px;
-        top: 3000px;
-        object-fit: contain;
-        width: 40%;   
-    }
+
     
-    .shade-portfolio {
-        position: absolute;
-        left: 0;
-        top: 4100px;
-        object-fit: contain;
-        width: 90%;
-    }
+
     
-    .shade-footer {
-        position: absolute;
-        left: -100px;
-        top: 5480px;
-        object-fit: contain;
-        width: 63%;
-    }
+
 }

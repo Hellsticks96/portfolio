@@ -9,6 +9,13 @@
     justify-content: center;
 }
 
+.shade-footer {
+    position: absolute;
+    top: -685px;
+    left: -16px;
+    transform: scale(0.95);
+}
+
 .footer-container {
     display: flex;
     align-items: center;
@@ -62,6 +69,15 @@
         right: 0;
     }
 
+    .shade-footer {
+        position: absolute;
+        object-fit: contain;
+        transform: none;
+        top: -142px;
+        left: 0;
+        width: 30%;
+    }
+
     .footer-container {
         flex-direction: column;
         justify-content: center;
@@ -78,5 +94,11 @@
         left: 0;
         right: 0;
         text-align: center;
+    }
+}
+
+@media (max-width: 850px) and (min-height: 850px){
+    .shade-footer {
+        top: -295px;
     }
 }

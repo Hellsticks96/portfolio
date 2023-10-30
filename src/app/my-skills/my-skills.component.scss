@@ -52,6 +52,12 @@
     z-index: 6;
 }
 
+.shade-skills {
+    position: absolute;
+    left: -16px;
+    top: 100px;
+}
+
 //<------------------------------------------- media queries ---------------------------------------->
 
 @media (max-width: 850px){
@@ -87,5 +93,20 @@
 
     .contact-btn-myskills {
         position: static;
+    }
+
+    .shade-skills {
+        position: absolute;
+        left: -16px;
+        top: 600px;
+        object-fit: contain;
+        width: 40%;
+        z-index: -1;   
+    }
+}
+
+@media (max-width: 850px) and (min-height: 850px){
+    .shade-skills {
+        top: 500px;
     }
 }
