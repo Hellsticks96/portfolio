@@ -1,5 +1,6 @@
 .portfolio-content {
     position: relative;
+    margin-top: 400px;
 }
 
 .portfolio-header {
@@ -106,8 +107,23 @@
 }
 
 @media (max-width: 850px) and (min-height: 850px){
+    .portfolio-header {
+        max-width: none;
+        position: absolute;
+    }
+
+    .project-container {
+        width: 100% !important;
+    }
+
     .shade-portfolio {
         top: 1150px;
         width: 90%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1250px) and (min-height:800px){
+    .project-container {
+        width: auto;
     }
 }

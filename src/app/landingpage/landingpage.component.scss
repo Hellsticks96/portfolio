@@ -45,3 +45,12 @@
         right: auto;
     }
 }
+
+@media (min-width: 900px) and (max-width: 1800px) and (min-height:800px){
+    .contact-btn-landingpage {
+        left: auto;
+        top: 600px;
+        right: 220px;
+        z-index: 16;
+    }
+}

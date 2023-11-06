@@ -7,9 +7,9 @@
 
 .me-img {
     position: absolute;
-    margin-top: 35vh;
-    height: 110vh;
-    width: 60%;
+    margin-top: 20vh;
+    height: 100vh;
+    width: 70%;
     object-fit: contain;
     z-index: 2;
 }
@@ -35,5 +35,11 @@
     .me-img-background {
         height: auto;
         margin-top: 0; 
+    }
+}
+
+@media (max-width: 850px) and (min-height: 850px){
+    .me-img {
+        width: 60%;
     }
 }

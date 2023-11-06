@@ -22,3 +22,16 @@
     top: -280px;
     right: -400px;
 }
+
+//<-------------------------------------------------- media queries -------------------------------------->
+
+@media (min-width: 800px) and (max-width: 1250px) and (min-height:800px){
+    .portrait-bubble {
+        height: 300px;
+        width: 300px;
+    }
+
+    .portrait-line {
+        width: 150px;
+    }
+}

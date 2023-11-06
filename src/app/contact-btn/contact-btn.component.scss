@@ -72,3 +72,11 @@
       transform: scale(0.8);
     }
   }
+
+
+  @media (min-width: 800px) and (max-width: 1450px) and (min-height:800px){
+    .test-btn,
+    .git-btn {
+      transform: scale(0.8);
+    }
+  }

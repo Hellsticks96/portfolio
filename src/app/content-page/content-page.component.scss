@@ -13,27 +13,8 @@
     scroll-behavior: smooth;
 }
 
-
 .about-me {
-    top: 115vh;
-}
-
-.my-skills {
-    top: 210vh;
-}
-
-.portfolio {
-    top: 275vh;
-
-}
-
-.contact {
-    top: 410vh;
-}
-
-.footer {
-    position: absolute;
-    top: 470vh;
+    margin-top: -5vh;
 }
 
 
@@ -47,10 +28,6 @@
 //<-------------------------------------------------- media queries ----------------------------------------------->
 
 @media (max-width: 850px){
-    .about-me {
-        margin-top: -370px;
-    }
-
     .my-skills {
         padding-top: 100px;
     }
@@ -63,11 +40,8 @@
         margin: 0 16px;
     }
 
-
-    
-
-    
-
-    
-
+    .hide-mobile {
+        display: none;
+    }
 }
+

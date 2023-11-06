@@ -1,5 +1,6 @@
 .about-me-content {
-    position: absolute;
+    position: relative;
+    margin-top: 400px;
     width: 100vw;
     max-width: 100%;
     background-color: #141D2F;
@@ -15,20 +16,25 @@
     width: 100vw;
     max-width: 100%;
     height: 1078px;
-    z-index: -1;
+    z-index: 2;
 }
 
 .shade-portrait {
     position: absolute;
     right: 0px;
     top: -500px;
-    z-index: 15;
+    z-index: 3;
 }
 
+.text-and-pic-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    z-index: 3;
+}
 
 .portrait {
-    position: absolute;
-    right: 0;
+    margin-top: 500px;
 }
 
 //<------------------------------------------------- media queries ---------------------------------------------------->
@@ -38,22 +44,25 @@
     .about-me-content {
         position: static;
         flex-direction: column;
-
+        margin-top: 0;
     }
+
     .contrast-arc-blue {
         height: auto;
-        position: static;
-        max-width: none;
-        z-index: 3;
+        top: 60vh;
     }
 
     .shade-portrait {
         position: absolute;
         right: 0px;
-        top: 800px;
+        top: 101vh;
         z-index: 6;
         object-fit: contain;
         width: 30%;
+    }
+
+    .text-and-pic-container {
+        margin: 0;
     }
 
     .portrait{
@@ -62,12 +71,24 @@
 }
 
 @media (max-width: 850px) and (min-height: 850px) {
-    .contrast-arc-blue {
-        margin-top: -118px;
+    .about-me-content {
+        position: relative;
+        z-index: 5;
     }
 
+    .contrast-arc-blue {
+        z-index: 7;
+    }
     .shade-portrait {
         width: 30%;
-        top: 1000px;
+        top: -300px;
+        right: -16px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1800px) and (min-height: 950px) {
+
+    .contrast-arc-blue {
+        top: -77vh;
     }
 }

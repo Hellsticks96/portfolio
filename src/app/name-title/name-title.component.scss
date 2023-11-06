@@ -13,26 +13,25 @@
     display: flex;
     justify-content: center;
     transform: rotate(-90deg);
-    font-size: 4.1rem;
+    font-size: 3.4em;
     font-weight: 400;
     height: 65px;
     width: 150px;
 }
 
 .title-straight-text {
-    width: 800px;
-
+    width: fit-content;
 }
 
 .name-text {
-    font-size: 5.6rem;
+    font-size: 4vw;
     font-weight: 700;
-    line-height: 6.75rem;
+    line-height: 5.1rem;
 }
 
 .dev-text {
     color: #ff4747;
-    font-size: 3.625rem;
+    font-size: 3.7vw;
     font-weight: 400;
     line-height: 4.6rem;
 }
@@ -75,5 +74,27 @@
 
     .text-l-mobile {
         font-size: 30px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1250px) and (min-height:800px){
+    .title-straight-text {
+        width: 400px;
+    }
+
+    .rotated-text {
+        font-size: 2rem;
+        height: 0;
+        width: 120px;
+    }
+
+    .name-text {
+        font-size: 2.3rem;
+        line-height: normal;
+    }
+
+    .dev-text {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
     }
 }

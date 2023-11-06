@@ -3,7 +3,7 @@
     display: flex;
     width: 100vw;
     max-width: 100%;
-    height: 70vh;
+    height: 900px;
 }
 
 .header-and-text {
@@ -13,8 +13,8 @@
 }
 
 .contact-text {
-    margin-left: 200px;
     max-width: 500px;
+    margin-left: 100px;
 }
 
 .contact-header {
@@ -121,6 +121,13 @@ textarea {
     }
   }
 
+  .shade-footer {
+    position: absolute;
+    bottom: 0px;
+    left: -16px;
+    z-index: -1;
+}
+
 
   //<----------------------- media queries ----------------------------------->
 
@@ -172,5 +179,49 @@ textarea {
         width: 100vw;
         max-width: 100%;
         justify-content: center;
+    }
+
+    .shade-footer {
+        position: absolute;
+        object-fit: contain;
+        transform: none;
+        bottom: 0px;
+        left: 0;
+        width: 30%;
+    }
+  }
+
+  @media (max-width: 850px) and (min-height: 850px){
+    .shade-footer {
+        bottom: 0px !important;
+    }
+}
+
+  @media (min-width: 800px) and (max-width: 1250px) and (min-height:800px){
+    .contact-header {
+        h1 {
+            font-size: 3.6rem;
+        }
+    }
+
+    input, textarea {
+        width: 430px;
+    }
+
+    .checkbox-privacy-flex {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        label {
+            font-size: 0.65rem;
+            width: 430px;
+        }
+    }
+
+    
+    .shade-footer {
+        width: 40%;
+        bottom: 0px;
     }
   }
